@@ -1,0 +1,39 @@
+name: Deploy dev -> Portainer
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - "main/**"
+      - "Dockerfile"
+      - ".github/workflows/deploy.yml"
+
+jobs:
+  build-and-redeploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # (A) Build + push Docker Hub (exemple générique)
+      - name: Login Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Build and push
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: true
+          tags: |
+            ${{ secrets.DOCKERHUB_USERNAME }}/apache:main
+
+      # (B) Redeploy stack dans Portainer (pull nouvelle image)
+      - name: Redeploy Portainer stack
+        uses: wirgen/portainer-stack-redeploy-action@v1.1
+        with:
+          portainerUrl: ${{ secrets.PORTAINER_URL }}
+          accessToken: ${{ secrets.PORTAINER_ACCESS_TOKEN }}
+          stackId: ${{ secrets.PORTAINER_STACK_ID }}
+          endpointId: ${{ secrets.PORTAINER_ENDPOINT_ID }}
