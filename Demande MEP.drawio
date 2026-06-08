@@ -6,30 +6,52 @@
         <mxCell id="1" parent="0" />
         <UserObject label="UI" id="bimjTAtM6vCEuXX9xQhZ-1">
           <mxCell parent="1" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=api" vertex="1">
-            <mxGeometry height="48" width="50" x="350" y="260" as="geometry" />
+            <mxGeometry height="48" width="50" x="335" y="268" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="bimjTAtM6vCEuXX9xQhZ-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;color: rgb(17, 17, 17); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255); float: none; display: inline !important;&quot;&gt;global-mfe-b2c-uat.gi.dev-sys.beneva.ca.&lt;/span&gt;&lt;br style=&quot;color: rgb(17, 17, 17); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;" vertex="1">
-          <mxGeometry height="30" width="310" x="220" y="210" as="geometry" />
+          <mxGeometry height="30" width="310" x="220" y="224" as="geometry" />
         </mxCell>
         <UserObject label="BFF" id="bimjTAtM6vCEuXX9xQhZ-3">
           <mxCell parent="1" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=api" vertex="1">
-            <mxGeometry height="48" width="50" x="350" y="410" as="geometry" />
+            <mxGeometry height="48" width="50" x="335" y="453" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="bimjTAtM6vCEuXX9xQhZ-4" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" value="Internet" vertex="1">
-          <mxGeometry height="31.5" width="50" x="340" y="70" as="geometry" />
+          <mxGeometry height="31.5" width="50" x="335" y="54" as="geometry" />
         </mxCell>
         <mxCell id="bimjTAtM6vCEuXX9xQhZ-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="370" y="130" as="sourcePoint" />
-            <mxPoint x="370" y="220" as="targetPoint" />
+            <mxPoint x="361" y="130" as="sourcePoint" />
+            <mxPoint x="361" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bimjTAtM6vCEuXX9xQhZ-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.64;entryY=0.042;entryDx=0;entryDy=0;entryPerimeter=0;" target="bimjTAtM6vCEuXX9xQhZ-3" value="">
+        <mxCell id="bimjTAtM6vCEuXX9xQhZ-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="380" y="340" as="sourcePoint" />
-            <mxPoint x="430" y="290" as="targetPoint" />
+            <mxPoint x="360" y="353" as="sourcePoint" />
+            <mxPoint x="360" y="423" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="BFF" id="2nBjpX3ASkOJ5MO6IyIu-1">
+          <mxCell parent="1" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=api" vertex="1">
+            <mxGeometry height="48" width="50" x="430" y="453" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="2nBjpX3ASkOJ5MO6IyIu-2" edge="1" parent="1" source="bimjTAtM6vCEuXX9xQhZ-1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.995;exitY=0.63;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="455" y="353" as="sourcePoint" />
+            <mxPoint x="455" y="423" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="BFF" id="2nBjpX3ASkOJ5MO6IyIu-3">
+          <mxCell parent="1" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=api" vertex="1">
+            <mxGeometry height="48" width="50" x="235" y="453" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="2nBjpX3ASkOJ5MO6IyIu-4" edge="1" parent="1" source="bimjTAtM6vCEuXX9xQhZ-1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.005;exitY=0.63;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="190" y="298" as="sourcePoint" />
+            <mxPoint x="260" y="423" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
