@@ -37,9 +37,9 @@
             <mxGeometry height="48" width="50" x="430" y="453" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="2nBjpX3ASkOJ5MO6IyIu-2" edge="1" parent="1" source="bimjTAtM6vCEuXX9xQhZ-1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.995;exitY=0.63;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+        <mxCell id="2nBjpX3ASkOJ5MO6IyIu-2" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="455" y="353" as="sourcePoint" />
+            <mxPoint x="390" y="310" as="sourcePoint" />
             <mxPoint x="455" y="423" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -48,9 +48,9 @@
             <mxGeometry height="48" width="50" x="235" y="453" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="2nBjpX3ASkOJ5MO6IyIu-4" edge="1" parent="1" source="bimjTAtM6vCEuXX9xQhZ-1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.005;exitY=0.63;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+        <mxCell id="2nBjpX3ASkOJ5MO6IyIu-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="190" y="298" as="sourcePoint" />
+            <mxPoint x="330" y="310" as="sourcePoint" />
             <mxPoint x="260" y="423" as="targetPoint" />
           </mxGeometry>
         </mxCell>
